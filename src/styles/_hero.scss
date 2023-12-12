@@ -10,11 +10,11 @@
     background-size: cover;
     position: relative;
 
-    .container{
+    .container {
         position: relative;
     }
 
-    &::before{
+    &::before {
         content: '';
         position: absolute;
         top: 0;
@@ -34,22 +34,22 @@
         text-align: center;
         color: variables.$corDosTextos;
 
-        span{
+        span {
             color: variables.$corDoContador;
         }
     }
 
-    &__logo{
+    &__logo {
         display: block;
         margin: 0 auto;
         height: 200px;
         border-radius: 10%;
     }
 
-    @media(max-width: 640px){
+    @media(max-width: 640px) {
         padding: 40px 0;
 
-        &__logo{
+        &__logo {
             height: 40px;
         }
 

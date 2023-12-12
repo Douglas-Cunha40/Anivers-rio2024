@@ -3,24 +3,24 @@
 .event {
     padding: 80px 0;
 
-    &--doces{
+    &--doces {
         background-image: linear-gradient(variables.$black1, variables.$black2);
     }
 
-    &--salgados{
+    &--salgados {
         background-image: linear-gradient(variables.$black1, variables.$musg);
     }
 
-    &--musica{
+    &--musica {
         background-image: linear-gradient(variables.$black2, variables.$black1);
     }
 
-    &--brincadeiras{
+    &--brincadeiras {
         background-image: linear-gradient(variables.$musg, variables.$black1);
     }
 
-    &--image-left{
-        .container{
+    &--image-left {
+        .container {
             flex-direction: row-reverse;
         }
     }
@@ -48,16 +48,16 @@
         }
     }
 
-    @media(max-width: 640px){
-        .container{
+    @media(max-width: 640px) {
+        .container {
             display: block;
         }
 
-        &__image{
+        &__image {
             width: 100%;
         }
 
-        &__details{
+        &__details {
             margin-right: 0;
             margin-bottom: 16px;
         }

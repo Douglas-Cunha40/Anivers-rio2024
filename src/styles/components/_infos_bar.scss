@@ -22,20 +22,21 @@
             }
         }
     }
-    @media(max-width: 640px){
+
+    @media(max-width: 640px) {
         display: block;
 
-        &__infos{
+        &__infos {
             display: block;
 
-            &__item{
+            &__item {
                 margin-bottom: 24px;
             }
         }
     }
 
-    @media(max-width: 1024px){
-        &__infos{
+    @media(max-width: 1024px) {
+        &__infos {
             gap: 16px;
         }
     }
