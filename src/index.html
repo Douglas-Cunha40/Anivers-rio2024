@@ -4,10 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEU ANIVERSÁRIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <H1>ola mundo</H1>
-    <img src="./images/doces.png" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/douglas.png" alt="Logo do convite">
+            <p class="hero__text">O aniversário mais esperado do ano começa em: <span id="contador"></span> </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Buffet - Rua Desenvolverdor, 200 - Tatuapé - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Trajes</b>
+                        Sport fino
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        02/05/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">Confirme sua presença</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="event event--doces">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Teremos muitos Doces</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nemo amet sed, 
+                        quibusdam suscipit sit aliquam, expedita totam, possimus reiciendis qui facilis 
+                        blanditiis! Quibusdam, hic placeat? Obcaecati dolore deserunt rerum hic quas, 
+                        asperiores at sint assumenda incidunt sed maiores. Iusto architecto ex, et eaque 
+                        veniam, consectetur obcaecati commodi aut assumenda voluptatum ut quisquam vel, 
+                        odit reiciendis facilis inventore laboriosam quis.
+                    </p>
+                </div>
+                <img class="event__image" src="./images/doces.png" alt="Doces de Festa">
+            </div>
+        </section>
+
+        <section class="event event--salgados event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">Teremos muitos Salgados</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nemo amet sed, 
+                        quibusdam suscipit sit aliquam, expedita totam, possimus reiciendis qui facilis 
+                        blanditiis! Quibusdam, hic placeat? Obcaecati dolore deserunt rerum hic quas, 
+                        asperiores at sint assumenda incidunt sed maiores. Iusto architecto ex, et eaque 
+                        veniam, consectetur obcaecati commodi aut assumenda voluptatum ut quisquam vel, 
+                        odit reiciendis facilis inventore laboriosam quis.
+                    </p>
+                </div>
+                <img class="event__image" src="./images/salgados.png" alt="Salgados de Festa">
+            </div>
+        </section>
+
+        <section class="event event--musica">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">E para animar teremos música ao vivo</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nemo amet sed, 
+                        quibusdam suscipit sit aliquam, expedita totam, possimus reiciendis qui facilis 
+                        blanditiis! Quibusdam, hic placeat? Obcaecati dolore deserunt rerum hic quas, 
+                        asperiores at sint assumenda incidunt sed maiores. Iusto architecto ex, et eaque 
+                        veniam, consectetur obcaecati commodi aut assumenda voluptatum ut quisquam vel, 
+                        odit reiciendis facilis inventore laboriosam quis.
+                    </p>
+                </div>
+                <img class="event__image" src="./images/musica.png" alt="Banda ao vivo">
+            </div>
+        </section>
+
+        <section class="event event--brincadeiras event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">E para as crianças muitas atrações</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nemo amet sed, 
+                        quibusdam suscipit sit aliquam, expedita totam, possimus reiciendis qui facilis 
+                        blanditiis! Quibusdam, hic placeat? Obcaecati dolore deserunt rerum hic quas, 
+                        asperiores at sint assumenda incidunt sed maiores. Iusto architecto ex, et eaque 
+                        veniam, consectetur obcaecati commodi aut assumenda voluptatum ut quisquam vel, 
+                        odit reiciendis facilis inventore laboriosam quis.
+                    </p>
+                </div>
+                <img class="event__image" src="./images/brincadeiras.png" alt="Brincadeiras">
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
